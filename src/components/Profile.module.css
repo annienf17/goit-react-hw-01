@@ -1,0 +1,68 @@
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: "Lato, Arial, Roboto", sans-serif;
+  font-size: 2rem;
+  line-height: 1.2;
+}
+p {
+  margin: 1rem;
+}
+.container {
+  border: 3px solid #000;
+  border-radius: 10px;
+  max-width: 40rem;
+  margin: auto;
+}
+.profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem 0;
+}
+.profile img {
+  width: 10rem;
+  height: 10rem;
+  border-radius: 50%;
+  background-color: #000;
+}
+.h1 {
+  font-size: 3rem;
+  font-weight: 700;
+}
+.tag {
+  font-size: 2.5rem;
+  color: #9b9a9a;
+}
+.location {
+  font-size: 2.5rem;
+  color: #9b9a9a;
+}
+.stats {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 3px solid #959494;
+  padding: 0;
+  margin: auto;
+  list-style: none;
+  background-color: #d8d8d9;
+  border-radius: 0 0 10px 10px;
+}
+.stats li {
+  flex: 1;
+  text-align: center;
+  padding: 2rem 0;
+  border-right: 3px solid #959494;
+}
+.stats li span {
+  display: block;
+}
+.stats li:last-child {
+  border-right: none;
+}
+.counter {
+  font-weight: 700;
+  margin-top: 0.7rem;
+}
