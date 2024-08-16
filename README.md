@@ -13,7 +13,7 @@ Currently, two official plugins are available:
 
 node_modules/@eslint/dist/eslintrc.cjs
 
-exchange with:
+exchange with: ![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png)
 
 ```javascript
 module.exports = {
@@ -39,7 +39,9 @@ module.exports = {
 };
 ```
 
-# Add source map generation option & replace with below to vite.config.js
+# Add source map generation option
+
+& replace with below to vite.config.js
 
 ```javascript
 import { defineConfig } from "vite";
