@@ -41,7 +41,7 @@ module.exports = {
 
 # Add source map generation option
 
-& replace with below to vite.config.js
+vite.config.js - replace with: ![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png)
 
 ```javascript
 import { defineConfig } from "vite";
