@@ -15,7 +15,7 @@ node_modules/@eslint/dist/eslintrc.cjs
 
 exchange with:
 
-```
+```javascript
 module.exports = {
   root: true,
   env: { browser: true, es2020: true },
@@ -37,22 +37,19 @@ module.exports = {
     ],
   },
 };
-///
-
+```
 
 # Add source map generation option & replace with below to vite.config.js
 
-```
-
+```javascript
 import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
 
 // <https://vitejs.dev/config/>
 export default defineConfig({
-plugins: [react()],
-build: {
-sourcemap: true,
-},
+  plugins: [react()],
+  build: {
+    sourcemap: true,
+  },
 });
-
-///
+```
