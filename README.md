@@ -55,8 +55,12 @@ export default [
 ];
 ```
 
-OR add to all your files when needed
-///_ eslint-disable react/prop-types _/
+OR add to all your components JSX files on the top as needed
+
+```
+/* eslint-disable react/prop-types */
+
+```
 
 # Add source map generation option
 
